@@ -25,7 +25,7 @@ public class Marcador {
     *no tiene parametros o argumentos
     */
     public void rayar(){
-     System.out.println(x:"Marcador rayando...");
+     System.out.println("Marcador rayando...");
    }
 
    /*
@@ -40,13 +40,10 @@ public class Marcador {
 
     }
 
-    public String tostring(){
-        return "El marcador se recargo con" + cantidad + "ml";
-    }
 
     public String tostring(){
-        return"{marcador: nombre: " + nombre + "color:" + color + "Diametro:" + diametro + "esBorrable:" + esBorrable + "}"}
+        return "{ marcador: nombre: " + nombre + "color:" + color + "Diametro:" + diametro + "esBorrable:" + esBorrable + " }";
 
     }
-
+}
 
