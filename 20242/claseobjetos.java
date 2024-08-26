@@ -1,4 +1,4 @@
-public class Ejecutar {
+public class claseobjetos {
   public static void main(String[] args){
 
       //Comentario de una sola línea
