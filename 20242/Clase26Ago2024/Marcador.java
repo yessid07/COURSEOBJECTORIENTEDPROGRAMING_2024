@@ -25,7 +25,8 @@ public class Marcador {
     *no tiene parametros o argumentos
     */
     public void rayar(){
-     System.out.println("Marcador rayando...");
+     System.out.println("{
+     8Marcador rayando...");
    }
 
    /*
