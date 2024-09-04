@@ -7,8 +7,8 @@ public class Ejecutarcuentabancaria {
         private String titular;
     
         // Constructor para inicializar la cuenta
-        public Ejecutarcuentabancaria(String String, double saldo, String titular) {
-            this.NumeroCuenta = String;
+        public Ejecutarcuentabancaria(int NumeroCuenta, double saldo, String titular) {
+            this.NumeroCuenta = NumeroCuenta;
             this.titular = titular;
             this.saldo = saldo;
         }

@@ -5,7 +5,7 @@ public class Ejecutar1 {
         // Método main para probar la clase
         public static void main(String[] args) {
             // Crear una instancia de CuentaBancaria
-            Ejecutarcuentabancaria  cuenta1 = new Ejecutarcuentabancaria("1234567890", 1000.0,"Juan Pérez");
+            Ejecutarcuentabancaria  cuenta1 = new Ejecutarcuentabancaria(1234567890, 1000.0,"Juan Pérez");
     
             // Consultar el saldo inicial
             cuenta1.consultarSaldo();
