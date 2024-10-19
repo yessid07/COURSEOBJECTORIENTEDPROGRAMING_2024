@@ -1,0 +1,19 @@
+public class EjecutarHerencia{
+  public static void main(String[] args) {
+  
+    //creacion de los Objetos
+    Trabajador objT1 = new Vendedor(id:1, Nombre:"Cristiano", Area:"Textiles", comision:20.0);
+    Trabajador objT2 = new Vendedor(id:2, Nombre:"Sneider", Area:"Electrodomesticos", comision:10.0);
+    Trabajador objT3 = new Vendedor(id:3, Nombre:"Deiverson", Area:"Dulceria", Horas
+    .....:200.0);
+    Trabajador objT4 = new Vendedor(id:4, Nombre:"Jader", Area:"Comestibles", Horas:230.0);
+
+    System.out.println("Salario Vendedor: " + objT1.salario());
+    System.out.println("Salario Vendedor: " + objT3.salario());
+
+    System.out.println(objT1 instanceof Vendedor); //prints true
+    System.out.println(objT1 instanceof Trabajador); //prints true
+  }
+
+
+}

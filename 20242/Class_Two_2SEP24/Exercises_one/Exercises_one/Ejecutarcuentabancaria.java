@@ -1,4 +1,4 @@
-package Clase_2Sep2024;
+package Class_Two_2SEP24.Exercises_one.Exercises_one;
 
 public class Ejecutarcuentabancaria {
         // Atributos de la clase

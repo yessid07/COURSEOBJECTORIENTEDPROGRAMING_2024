@@ -1,4 +1,4 @@
-package Clase26Ago2024;
+package Class_one_26Ago24;
 public class Ejecutar {
 
     public static void main(String[] args){
